@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script type="text/javascript" src="./js/test.js"></script>
+    <script type="text/javascript" src="./js/myfocus-2.0.1.min.js"></script>
+    <script type="text/javascript">
+        myFocus.set({
+            id:'boxID',//焦点图盒子ID
+            pattern:'mF_YSlider',//风格应用的名称
+            time:3,//切换时间间隔(秒)
+            trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+            //width:,//设置图片区域宽度(像素)
+            //height:,//设置图片区域高度(像素)
+            txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+        })
+    </script>
+    <title>周边</title>
+	<link rel="shortcut icon" href="./images/123.ico"/>
+</head>
+<body background="images/background/background.jpg">
+    <div class="contain">
+        <!--菜单栏-->
+        <div class="contain_head">
+            <img src="./images/aroundus/logo.png">
+            <div class="contain_head_right">
+                <ul>
+                    <li><a href="index.html">主页</a> </li>
+                    <li><a href="">校园</a> </li>
+                    <li><a style="    color: white; display: block; background: #979e7c;"  href="">周边</a> </li>
+                    <li><a href="">探索</a> </li>
+                    <li><a href="">作品</a> </li>
+                </ul>
+            </div>
+        </div>
+        <!--焦点图-->
+        <div class="other_head" id="boxID">
+            <div class="loading"><img src="./images/GIF/round.gif" alt="图片加载中"></div>
+            <div class="pic">  <!--必须为pic-->
+                <ul class="pic_ul">
+                    <li><a href="" ><img src="./images/online/11.jpg" alt="" text="对这个校园的探索" ></a></li>
+                    <li><a href="" ><img src="./images/online/22.jpg" alt="" text="对这个校园的探索" ></a></li>
+                    <li><a href="" ><img src="./images/online/33.jpg" alt="" text="对这个校园的探索" ></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--主体内容-->
+        <div class="contain_main">
+            <div class="search_main">
+                <div class="search_main_right">
+                    <div class="search_main_right_main">
+                        <div class="search_main_right_top">
+                            <div class="search_main_right_button">
+                                <a href="#search1">徐州印象</a>
+                            </div>
+                            <div class="search_main_right_button">
+                                <a href="#search2">周边饮食</a>
+                            </div>
+                            <div class="search_main_right_button">
+                                <a href="#search3">文化和景区</a>
+                            </div>
+                        </div>
+                        <div class="search_main_right_bottom">
+                            <h1>联系我们</h1>
+                            <p>联系地址</p>
+                            <p>江苏省 徐州市</p>
+                            <p>泉山区云龙湖畔大学路一号</p>
+                            <p><a href="">联系我们</a><img src="./images/main/the-coal_46.jpg"></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="search_main_left">
+                    <a name="search1"></a>
+                    <div class="search_main_top">
+                        <h1 class="h1">源深流自远，行健天同功</h1>
+                        <p >徐州历史悠久，古称“彭城”。徐州是华东地区重要门户城市，交通便利，自古就是北国锁钥、南国门户、兵家必争之地和商贾云集中心。
+                            徐州是两汉文化的发源地，有大量的文化遗产和名胜古迹，也称东方雅典。</p>
+                        <p >千年古城，百年矿大。坐落于文化古城的中国矿业大学是一所历史悠久，自强不息的百年老校。其经过长期发展，已成为一所特色鲜明的多科性研究型高水平大学.</p>
+                        <img class="search_main_top_imgOne" src="./images/aroundus/1_10.jpg">
+                        <div class="search_main_top_imgTwo">
+                            <img  src="./images/aroundus/1_14.jpg">
+                            <img  src="./images/aroundus/1.png">
+                        </div>
+
+                    </div>
+                    <a name="search2"></a>
+                    <div  class="search_main_middle">
+                        <h1 class="h1">周边餐饮</h1>
+                        <div class="search_delicious_left">
+                            <div class="delicious_img">
+                            <a href=""><img src="./images/aroundus/1_23.jpg"></a></div>
+                            <p class="p">矿大南门直走100米，价格适中</p>
+                            <div class="delicious_img">
+                                <a href=""><img src="./images/aroundus/1_31.jpg"></a></div>
+                            <p class="p">矿大南门直走80米，右转直走50米</p>
+                            <div class="delicious_img">
+                                <a href=""><img src="./images/aroundus/1_41.jpg"></a></div>
+                            <p class="p">校内图书馆楼下，书香氛围，情侣专区</p>
+                        </div>
+                        <div class="search_delicious_right">
+                            <div class="delicious_img">
+                                <a href=""><img src="./images/aroundus/1_26.jpg"></a></div>
+                            <p class="p">矿大南门直走80米右转，档次高</p>
+                            <div class="delicious_img">
+                                <a href=""><img src="./images/aroundus/1_34.jpg"></a></div>
+                            <p class="p">风格简约，价格低廉，南门直行可达</p>
+                            <div class="delicious_img">
+                                <a href=""><img src="./images/aroundus/1_39.jpg"></a></div>
+                            <p class="p">学生创业，价格适中，可定制</p>
+                        </div>
+                    </div>
+                    <a name="search3"></a>
+                    <div  class="search_main_bottom">
+                        <h1 class="h1">文化和景区</h1>
+                        <div class="search_cultureOne">
+                            <img src="./images/aroundus/1_45.jpg">
+                            <p class="p">矿大图书馆，书香圣地</p>
+                        </div>
+                        <div class="search_cultureTwo">
+                            <img src="./images/aroundus/1_48.jpg">
+                            <p class="p">校园公园，四季花开</p>
+                            <p class="p">小桥流水，流连忘返</p>
+                        </div>
+                        <div class="search_cultureThree">
+                            <img src="./images/aroundus/1_52.jpg">
+                            <p class="p">镜湖如镜，平淡如真，让人心灵得以洗涤，镜湖湖畔是学生最喜欢的娱乐活动举办场所</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--底部版权区-->
+        <div class="part_bottom">
+            <div class="part_bottom_middle">
+                <span>Muzi design</span>
+                <span>THE COAL IN CUMT</span>
+                <span>a place to find differencr&joy</span>
+                <a href="">联系我们</a>
+                <img src="./images/main/the-coal_46.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
